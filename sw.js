@@ -108,6 +108,7 @@ const Connector = async (event) => {
 
         await buildResponseObject(actualRequestResponse);
 
+
         const data = {
             data: {
                 method,
